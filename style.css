@@ -2,13 +2,13 @@
         body{
         font-family: 'Questrial', sans-serif;
         }
+
        nav{
-        background: transparent;
-        height: 12vh;
+        height: 10vh;
        }
        .navbar-nav a{
         color: white;
-        margin: 10px;
+        margin: 20px;
        }
        h2{
         margin-top: 5%;
@@ -51,7 +51,7 @@
      }
      
      .footer a:hover{
-        background-color: red;
+        background-color: rgb(3, 3, 3);
         color: white;
      }
      
