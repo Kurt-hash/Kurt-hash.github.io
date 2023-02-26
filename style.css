@@ -36,44 +36,35 @@
         background-color: black;
         color: white;
        }
+
+       
        .footer{
-        background-color:rgb(40, 39, 39);
         text-align: center;
-        margin-top: 40px;
+        /* margin-top: 40px; */
         padding: 2%;
         
-     }
-     .footer a{
-        font-size: 25px;
+      }
+      .footer a{
+        font-size: 20px;
         color: white;
        margin-left: 30px;
-       padding: 5px;
-     }
+      }
      
-     .footer a:hover{
+      .footer a:hover{
         background-color: rgb(3, 3, 3);
         color: white;
-     }
+      }
      
       ul li a{
-        list-style: none;
         text-decoration: none;
-        color: white; 
+        color: white;
        
-     }
-     ul li{
-        display: inline-block;
-        padding-left: 15px;
-        
-        
-     }
-     .list{
+      }
+      ul li{
+        list-style: none;
+      }
+      .list a{
         text-align: center;
-        margin-top: 5vh;
-        margin-left: 30px;
-        
-     }
-     
-     .list a{
-        font-size: 18px;
-     }
+        font-size: 20px;
+       
+      }
