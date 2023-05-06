@@ -13,202 +13,182 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark sticky-top">
         <div class="container-fluid">
-            <a href="index.html" class="navbar-brand mx-3" style="font-size: 30px;">Interior Design</a>
+            <a href="index.html" class="navbar-brand mx-3" style="font-size: 30px; font-family: 'Montserrat', sans-serif; color: black; ">Interior Design</a>
             <button class="navbar-toggler" data-bs-toggle="collapse" 
             data-bs-target="#collapse"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="collapse">
-        <div class="navbar-nav ms-auto mx-4">
-            <a href="index.html" class="nav-item nav-link">Home</a>
-            <a href="gallery.html" class="nav-item nav-link">Gallery</a>
-            <a href="shop.html" class="nav-item nav-link">Shop</a>
-            <a href="project.html" class="nav-item nav-link">Project</a>
-            <a href="about.html" class="nav-item nav-link">About</a>
+        <div class="navbar-nav  ms-auto mx-4" id="myDIV">
+            <a href="index.html" class="nav-item active nav-link" style="color: black;">Home</a>
+            <a href="gallery.html" class="nav-item nav-link" style="color: black;">Media</a>
+            <a href="shop.html" class="nav-item nav-link" style="color: black;">Shop</a>
+            <a href="project.html" class="nav-item nav-link" style="color: black;">Project</a>
+            <a href="about.html" class="nav-item nav-link" style="color: black;">About</a>
         </div>
         </div>
         </div>
         </nav>
+       
+        <section id="header">
+            <div class="container d-flex justify-content-center">
+                <div class="row">
+                    <div class="card col" id="card1">
+                        <h1 class="card-title ms-3 text-center" style=" font-family: 'Poppins', sans-serif; font-size: 80px;"><b>interior design.</b></h1>
+                    </div>
 
-        <!--Carousel-->
-
-        <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
-        <ol class="carousel-indicators">
-            <li data-bs-target="#carousel" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#carousel" data-bs-slide-to="1"> </li>
-            <li data-bs-target="#carousel" data-bs-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="img/bg.jpg" alt="" class=" w-100">
-        </div>
-        <div class="carousel-item">
-            <img src="img/bg6.avif" alt="" class=" w-100 ">
-        </div>
-        <div class="carousel-item">
-            <img src="img/bg2.avif" alt="" class=" w-100">
-        </div>
-        </div>
-        </div>
-
-        <!--Articles-->
-
-        <div class="container-fluid">
-            <h2 class="text-center ms-4 py-3">Articles</h2>
+                </div>
+            </div>
+        </section>
+<section id="articles">
+        <div class="container">
+            <h2 class=" mt-5 text-center">Articles</h2>
         <div class="row">
-        <div class="card col-lg-4 col-md-6 px-5 py-4">
-            <img src="img/image1.jpg" class="card-img-top" height="320vh" width="350vw">
-        <div class="class-body text-center">
-            <h3 class="card-title py-2"><b>How the Pandemic Is Reshaping Interior Design So Far</b></h3>
-            <p class="card-text ">The pandemic has caused a sea change in how we live, work, and recreate--seven months later, here's how that's impacted our homes.</p>
-            <a href="https://www.dwell.com/article/coronavirus-pandemic-interior-design-impact-0bf0f8a1" >Read More</a>
+        <div class="card col-lg-4 col-md-6 px-5 mt-5">
+            <img src="img/image1.jpg" class="img-fluid rounded">
+        <div class="body">
+            <h3 class="card-title mt-4"><b>Pandemic Is Reshaping Interior Design</b></h3>
+            <p class="card-text mt-3 ">The pandemic has caused a sea change in how we live, work, and recreate--seven months later.</p>
+            <a href="https://www.dwell.com/article/coronavirus-pandemic-interior-design-impact-0bf0f8a1" class="btn" id="buttons" target="_blank"><span>Read More on Dwell</span> </a>
         </div>
         </div>
     
-        <div class="card col-lg-4 col-md-6 px-5 py-4">
-            <img src="img/image2.jpg" alt="" class="card-img-top" height="320vh" width="350vw">
-        <div class="class-body text-center">
-            <h3 class="card-title py-2"><b>Interior Design Trends to Know in 2023-And What's on Its Way Out</b></h3>
-            <p class="card-text ">At first, "interior design trends" can feel like an oxymoronic term. When you design a room, as the saying goes, you need to learn to live with it. For a long time.</p>
-            <a href="https://www.vogue.com/article/interior-design-trends-to-know-in-2023-and-whats-on-its-way-out" class="">Read More</a>
+        <div class="card col-lg-4 col-md-6 px-5 mt-5">
+            <img src="img/image16.jpg" alt="" class="img-fluid rounded">
+        <div class="body ">
+            <h3 class="card-title mt-4"><b>Interior Design Trends to Know in 2023-</b></h3>
+            <p class="card-text mt-3 ">At first, "interior design trends" can feel like an oxymoronic term. When you design a room.</p>
+            <a href="https://www.vogue.com/article/interior-design-trends-to-know-in-2023-and-whats-on-its-way-out" class="btn" id="buttons" target="_blank"><span>Read More on Dwell</span></a>
         </div>
         </div>
 
-        <div class="card col-lg-4 col-md-6 px-5 py-4">
-            <img src="img/image3.jpg" alt="" class="card-img-top" height="320vh" width="350vw">
-        <div class="class-body text-center">
-            <h3 class="card-title py-2"><b>GroundBreaking Design</b></h3>
-            <p class="card-text ">It has been nearly half a decade, but the Dwell Home II is back! Construction began this winter in the hills outside <br>Los Angeles.</p>
-            <a href="https://www.dwell.com/article/groundbreaking-design-83a52ba0" class="">Read More</a>
-        </div>
-        </div>
-
-        <div class="card col-lg-4 col-md-6 px-5 py-4">
-            <img src="img/image16.jpg " alt=""class="card-img-top" height="320vh" width="350vw">
-        <div class="class-body text-center">
-            <h3 class="card-title py-2"><b>The Future of Homebuilding: <br>Home-in-a-box</b></h3>
-            <p class="card-text ">In this episode of Predicting Our Future, I'll take you along as I explore the future of homebuilding, speaking with founders of..</p>
-            <a href="https://www.dwell.com/article/the-future-of-homebuilding-home-in-a-box-dc40c8a5" class="">Read More</a>
-        </div>
-        </div>
-            
-        <div class="card col-lg-4 col-md-6 px-5 py-4">
-            <img src="img/image20.png " alt="" class="card-img-top" height="320vh" width="350vw">
-        <div class="class-body text-center">
-            <h3 class="card-title py-2"><b>A Designer's Tips For Renovating a Midcentury Modern Interior</b></h3>
-            <p class="card-text ">Interior designer Jessica Helgerson shares some pointers for tastefully updating a midcenture abode.</p>
-            <a href="https://www.dwell.com/article/a-designers-tips-for-renovating-a-midcentury-modern-interior-a0c62462" class="">Read More</a>
-        </div>
-        </div>
-
-        <div class="card col-lg-4 col-md-6 px-5 py-4">
-            <img src="img/image21.jpg" alt="" class="card-img-top" height="320vh" width="350vw">
-        <div class="class-body text-center">
-            <h3 class="card-title py-2"><b>A Spotlight on 10 Traditional Homes with Modern Interiors</b></h3>
-            <p class="card-text">Historically, the terms "traditional" and "modern" have not gone hand in hand (especially when speaking of home design).</p>
-            <a href="https://www.dwell.com/article/a-designers-tips-for-renovating-a-midcentury-modern-interior-a0c62462" class="">Read More</a>
+        <div class="card col-lg-4 col-md-6 px-5 mt-5">
+            <img src="img/image10.jpg" alt="" class="img-fluid rounded">
+        <div class="body">
+            <h3 class="card-title mt-3"><b>The Future of Home Building</b></h3>
+            <p class="card-text mt-3">Interior designer Jessica Helgerson shares some pointers for tastefully updating a midcenture abode.</p>
+            <a href="https://www.dwell.com/article/a-designers-tips-for-renovating-a-midcentury-modern-interior-a0c62462" class="btn" id="buttons" target="_blank"><span>Read More on Dwell</span></a>
         </div>
         </div>
         </div>
+        </div>
+    </section>
 
       <!--Design Icons-->
 
-        <h2 class="text-center px-5 mx-2">Design Icons</h2>
-        <div class="row">
-        <div class="card col-lg-4 col-md-6 px-5 py-4">
-            <img src="img/george.jpg" alt="" class="card-img-top" height="320vh" width="350vw">
-        <div class="class-body text-center">
-            <h3 class="card-title py-2"><b>Design Icon: George Nakashima</b></h3>
-            <p class="card-text ">A skilled and spiritual craftsman, George Nakashima crafted wood furniture that elevated and showcased natural forms.</p>
-            <a href="https://www.dwell.com/article/george-nakashima-designs-a9eb7f3e" class="">Read More</a>
-        </div>
-        </div>
+      <section id="design">
+        <div class="container">
+            <h2 class="text-center mt-5">Icons</h2>
+            <div class="row">
+                <div class="card col-lg-4 col-md-6 px-5 mt-5">
+                    <img src="img/walter7.jpg" alt="" class="img-fluid rounded" id="blur">
+                    <div class="body">
+                    <h3 class="card-title mt-4"><b>Design Icon: Walter Gropius</b></h3>
+                    <p class="card-text mt-3">Alongisde Frank Lloyd Wright, German architect Walter Gropius was a foundational figure in modern architecture.</p>
+                    <a href="https://www.dwell.com/article/walter-gropius-designs-32d2f490"  id="buttons" class="btn" target="_blank"><span>Read More on Dwell</span></a>
+                </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 px-5 mt-5">
+                    <img src="img/eileen4.jpg" alt="" class="img-fluid rounded" id="blur">
+                    <div class="body">
+                    <h3 class="card-title mt-4" ><b>Design Icon: Eileen Gray</b></h3>
+                    <p class="card-text mt-3">The modernist designer generated an oeuvre that is gentler and more sensuous in spirit that many of her competitors.</p>
+                    <a href="https://www.dwell.com/article/eileen-gray-designs-6ee2758f" class="btn"  id="buttons"><span>Read More on Dwell</span></a>
+                </div>
+                </div>
 
-        <div class="card col-lg-4 col-md-6 px-5 py-4">
-            <img src="img/eileen.jpg" alt="" class="card-img-top" height="320vh" width="350vw">
-        <div class="class-body text-center">
-            <h3 class="card-title py-2"><b>Design Icon: Eileen Gray</b></h3>
-            <p class="card-text ">The modernist designer generated an oeuvre that is gentler and more sensuous in spirit that many of her competitors.</p>
-            <a href="https://www.dwell.com/article/eileen-gray-designs-6ee2758f" class="">Read More</a>
+                <div class="card col-lg-4 col-md-6 px-5 mt-5">
+                    <img src="img/eero2.jpg" alt="" class="img-fluid rounded" id="blur">
+                    <div class="body">
+                    <h3 class="card-title mt-4" ><b>Design Icon: Eero Saarinen</b></h3>
+                    <p class="card-text mt-3">Bold curves, colorful accents and technical vision: Finnish-American architect Eero Saarinen's body of work represents.</p>
+                    <a href="https://www.dwell.com/article/eero-saarinen-designs-a3573c1a" class="btn"  id="buttons" target="_blank"><span>Read More on Dwell</span></a>
+                </div>
+                </div>
+                
+                    
+                
+                
+            </div>
         </div>
-        </div>
+    </section>
 
-        <div class="card col-lg-4 col-md-6 px-5 py-4">
-            <img src="img/eero.jpg" alt="" class="card-img-top" height="320vh" width="350vw">
-        <div class="class-body text-center">
-            <h3 class="card-title py-2"><b>Design Icon: Eero Saarinen</b></h3>
-            <p class="card-text ">Bold curves, colorful accents and technical vision: Finnish-American architect Eero Saarinen's body of work represents.</p>
-            <a href="https://www.dwell.com/article/eero-saarinen-designs-a3573c1a" class="">Read More</a>
+    <section id="sign-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 style="font-family: 'Poppins', sans-serif;"><b>Sign Up to our newsletter</b></h3>
+                    <p>Stay up to date with the latest news, designs, and articles</p>
+                </div>
+                <div class="col-lg-6 ">
+                   <form class="d-flex mt-3 ">
+                        <input type="text" name="email" id="email" class="form-control w-60" placeholder="Enter your email">
+                        <a href=""class="btn text-white ms-2" id="buttons"><span>Submit</span></a>
+                   </form>
+                </div>
+    
+            </div>
+    
         </div>
-        </div>
-
-        <div class="card col-lg-4 col-md-6 px-5 py-4">
-            <img src="img/jean.jpg" alt="" class="card-img-top" height="320vh" width="350vw">
-        <div class="class-body text-center">
-            <h3 class="card-title py-2"><b>Design Icon: Jean Prouve</b></h3>
-            <p class="card-text ">The Metal worker's elegant designs fed modern obsessions with steel and prefab construction.</p>
-            <a href="https://www.dwell.com/article/jean-prouve-designs-0f5cb78a" class="">Read More</a>
-        </div>
-        </div>
-
-        <div class="card col-lg-4 col-md-6 px-5 py-4">
-            <img src="img/walter.jpg" alt="" class="card-img-top" height="320vh" width="350vw">
-        <div class="class-body text-center">
-            <h3 class="card-title py-2"><b>Design Icon: Walter Gropius</b></h3>
-            <p class="card-text ">Alongisde Le Corbusier and Frank Lloyd Wright, German architect Walter Gropius was a foundational figure in modern architecture.</p>
-            <a href="https://www.dwell.com/article/walter-gropius-designs-32d2f490" class="">Read More</a>
-        </div>
-        </div>
-
-        <div class="card col-lg-4 col-md-6 px-5 py-4">
-            <img src="img/charlotte.jpg" alt="" class="card-img-top" height="320vh" width="350vw">
-        <div class="class-body text-center">
-            <h3 class="card-title py-2"><b>Design Icon: Charlotte Perriand</b></h3>
-            <p class="card-text ">Many innovators helped usher in the Modernist movement, but French architect, furniture maker, and interior designer Charlotte...</p>
-            <a href="https://www.dwell.com/article/charlotte-perriand-designs-f3252ed0" class="">Read More</a>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
+    </section>
+    
+       
+        
        
       <!--Footer-->
 
-        <div class="footer bg-dark text-white mt-5 py-4">
-        <div class="row">
-        <div class="col-lg-4">
-            <h4 class="py-4">"Design is so simple. That's why it's so complicated." -Paul Rand</h4>
-        <form class="d-flex  px-5">
-        <div class="input-group">
-            <input class="form-control" type="text" name="search" id="search" placeholder="Search">
-            <button class="btn btn-secondary" type="button"><i class="bi bi-search"></i></button>
-        </div>
-        </form>   
-        </div>
-
-        <div class="col-lg-4">
-        <ul class="social-list py-2">
-            <li><a href=""><i class="fa fa-facebook pt-3"></i> Facebook</a></li>
-            <li><a href=""><i class="fa fa-instagram pt-3"></i> Instagram</a></li>
-            <li><a href=""><i class="fa fa-twitter pt-3"></i> Twitter</a></li>
-            <li><a href=""><i class="fa fa-pinterest pt-3"></i> Pinterest</a></li>
-        </ul>
-        </div>
-          
-        <div class="col-lg-4 py-2">
-        <ul class="list">
-            <li class="py-1"><a href="index.html">Home</a></li>
-            <li class="py-1"><a href="gallery.html">Gallery</a></li>
-            <li class="py-1"><a href="shop.html">Shop</a></li>
-            <li class="py-1"><a href="project.html">Projects</a></li>
-            <li class="py-1"><a href="about.html">About</a></li>
-        </ul>
-        </div>
-            <p class="pt-4 text-center text-secondary">&copy; 2023 Interior Design. All Rights Reserved.</p>
-        </div>
-        </div>
+      <section id="footer">
+        <div class="container" >
+            <div class="row">
+                <div class="card col-lg-4 col-md-6 px-5 py-4" id="cards2">
+                <div class="class-body">
+                    <h3 class="card-title mt-2 " style="font-size: 25px;" >"Interior design is a powerful tool to shape the world around us, to inspire, to comfort, and to heal."</h3>
+                    <a href="" style="color: black; font-size: 17px;">Subscribe <i class="bi bi-arrow-right ms-2"></i></a>
+                </div>
+                </div>
+            
+                <div class="card col-lg-4 col-md-6 px-5 py-4" id="cards2">
+                <div class="class-body">
+                    <h5 class="card-title mt-2   " style="font-size: 20px;"><b>Professionals</b></h3>
+                        <hr class="" style="width: 70px; border: 2px solid whitesmoke; border-radius: 5px;">
+                    <h6 class="card-text"><a href="" class="">Post A Project</a></h6>
+                    <h6 class="card-text"><a href="" class="" >Sell Your Projects</a></h6>
+                    <h6 class="card-text"><a href="" class="" >Contribute to Interior Design</a></h6>
+                    <h6 class="card-text"><a href="" class="" >Promote your Work</a></h6>
+                                
+                </div>
+                </div>
+        
+                <div class="card col-lg-4 col-md-6 px-5 py-4" id="cards2">
+                    <div class="class-body">
+                        <h5 class="card-title mt-2 " style="font-size: 20px;" ><b>About</b></h3>
+                            <hr class="" style="width: 70px; border: 2px solid black; border-radius: 5px;">
+                        <h6 class="card-text"><a href="" class="">About Us</a></h6>
+                        <h6 class="card-text"><a href="" class="">Contact Us</a></h6>
+                        <h6 class="card-text"><a href="" class="">FAQ</a></h6>
+                        <h6 class="card-text"><a href="" class="">Careers</a></h6>
+                        <h6 class="card-text"><a href="" class="">Advertise</a></h6>
+                        <h6 class="card-text"><a href="" class="">Media Kit</a></h6>
+                        <div class="social-links mt-4">
+                            <a href="" target="_blank"><i class="bi bi-facebook px-4 "id="socials1"></i></a>
+                            <a href="" target="_blank"><i class="bi bi-instagram px-4 "id="socials1"></i></i></a>
+                            <a href="" target="_blank"><i class="bi bi-twitter px-4  "id="socials1"></i></a>
+                        </div>
+                                    
+                    </div>
+                    
+                    </div>
+                    <p class="card-text text-center mt-4 pt-4">&copy; 2023 Interior Design. All Rights Reserved.</p>
+                    
+                </div>
+        
+            </section>
       
    
+            <!--BUTTON JAVASCRIPT-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-square-fill"></i></i></button>
+    <script src="main.js">
+    </script>
    
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
