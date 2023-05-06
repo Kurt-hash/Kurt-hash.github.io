@@ -16,7 +16,6 @@
        .navbar-nav a:hover{
         border-bottom :2px solid black;
         color: black;
-        
         margin: 10px;
        }
        .active{
@@ -63,11 +62,10 @@
         padding: 4px;
         }
 
-    #socials1:hover{
+       #socials1:hover{
         color: black;
         background-color: rgb(190, 190, 190);
         }
-   
        .card{
         border: none;
         ;
@@ -151,7 +149,7 @@
       }
       #header{
         padding-top: 170px;
-        padding-bottom: 300px;
+        padding-bottom: 380px;
         background-color: rgb(233, 233, 233);
       }
       #sign-up{
