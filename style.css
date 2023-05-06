@@ -148,12 +148,13 @@
         padding-bottom: 70px;
       }
       #header{
-        padding-top: 170px;
-        padding-bottom: 325px;
+        padding-top: 200px;
+        padding-bottom: 350px;
         background-color: rgb(233, 233, 233);
+        background-size: cover;
       }
       #sign-up{
-        background-color: rgb(229, 229, 229);
+        background-color: rgb(226, 226, 226);
         padding-top: 40px;
         padding-bottom: 40px;
       }
